@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'modernrpc',
 ]
 
 MIDDLEWARE = [
@@ -143,3 +144,7 @@ try:
     from todo_backend.env_settings import *
 except ImportError:
     pass
+
+MODERNRPC_METHODS_MODULES = [
+    'todo.views'
+]
