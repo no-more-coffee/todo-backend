@@ -7,7 +7,7 @@ class TodoSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Todo
         fields = [
-            'url'
+            'url',
             'name',
             'is_done',
             'tags',
