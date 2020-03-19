@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 django = "~=2.2"
 djongo = "~=1.3"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.8"
